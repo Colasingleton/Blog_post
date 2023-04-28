@@ -1,6 +1,6 @@
 @import url("imported_css/link_styles.css");
 @import url("imported_css/font_styles.css");
-@import url("imported_css/grid_styles.css");
+@import "imported_css/grid_styles.css ;
 
 html{
     scroll-behavior: smooth;
