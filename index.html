@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="blog.css" />
+        <meta charset="utf=8">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <title>Blog Post landing page</title>
+        
+    </head>
+    <body>
+
+<!--navbar-->
+        <nav>
+            <ul>
+                <li><a href="#gallery">JOURNEY</a></li>
+                <li><a href="#story">ABOUT ME</a></li>
+                <li><a href="#footer">RESOURCES</a></li>
+                <li><a href="#socials">CONNECT</a></li>
+            </ul>
+        </nav>
+<header><h1>How I Became A Software Engineer</h1></header> 
+
+<!--main grid container-->
+<div class="container">
+    
+    <!--main image container-->
+    <div id="selfie" class="selfie"><img id ="main-img" src="/photos/cola.jpg"/><caption>Cola Singleton<br>Software Engineer</caption></div>
+
+    <!--story was swapped gallery for aesthetics-->
+    <div id ="story" class="story">
+        <div class="snippet"><p>About Me...<br><br>Hi there, I’m Cola. An aspiring software engineer that’s taking the self-taught route.</p></div>
+        <div class="snippet"><p>Although it can seem like a daunting journey to some, I find learning to be more efficient for myself while in search and discovery.</p></div> 
+        <div class="snippet"><p>There’s so much free information out there, and utilizing those resources first was the best option for me. <em>Check out the free education links below.</em></p></div>
+    </div>
+
+    <!--clickable images with comments at the bottom of the page-->
+    <!--Note: number three was removed and I haven't updated the numbers-->
+    <div id ="gallery" class="gallery">
+        <div><h4>A few steps I took along the way.<i class="fas fa-hand-point-down"></i></h4></div>
+        <div class="pic one"><a href="blog_links/pick.html"><h4>Pick something and stick to it.</h4></a><img src="/photos/pick.png" alt="pointing photo"/></div>
+        <div class="pic two"><a href="blog_links/research.html"><h4>Research and apply.</h4></a><img src="/photos/research.png"/></div>
+        <div class="pic four"><a href="blog_links/network.html"><h4>Build a network</h4></a><img src="/photos/network.png"/></div>
+        <div class="pic five"><a href="blog_links/create.html"><h4>Create something of your own.</h4></a><img src="/photos/create.png"/></div>
+        <div class="pic six"><a href="blog_links/persist.html"><h4>Keep coding!</h4></a><img src="/photos/persist.png"/></div>
+</div>
+
+<div id="footer" class="footer"> 
+
+    <!--gallery of favorite free sites & nested grid-->
+    <div class="nested-grid">
+    <div><a href="https://www.freecodecamp.org/learn/"><img class ="logo" src="/photos/FreeCodeCamp_logo.png" alt="FreeCodeCamp"></a></div>
+    <div><a href="https://www.edx.org/school/edx"><img class ="logo" src="/photos/edX_logo.png" alt="edX"></a></div>
+    <div><a href="https://www.theodinproject.com/"><img class ="logo" src="/photos/odin_project_logo.png" alt="The Odin project"></a></div>
+</div>
+</div>
+</div>
+
+<!--button container-->
+<div class="btn-container">
+<button id="socials"><a href ="https://www.linkedin.com/mwlite/in/colasingleton">LinkedIn</a> </button>
+<button id="socials"><a href="https://github.com/Colasingleton?tab=repositories">GitHub</a></button>
+    </div> 
+    </body>
+</html>

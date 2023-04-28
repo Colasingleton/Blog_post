@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    background-color: rgb(199, 205, 229);
+    
+}
+
+h1{
+    text-align: center;
+    padding: 60px 0px;
+}
+
+p{
+    text-indent: 2rem;
+    margin:auto;
+    width: 60%;
+    text-align: left;
+    font: 1.5rem Baskerville, Helvetica, sans-serif;
+    padding-bottom: 15px;
+}
+
+button {
+    margin-top: 100px;
+    position: relative;
+    bottom: 0%;
+    padding: 5px;
+    font: bold 1rem monospace;
+    border-radius: 5px;
+    border: 1px solid rgb(60, 59, 59);
+}
+
+button:hover {
+    background-color: rgb(235, 221, 205);
+    opacity: 70%;
+}
+
+a:visited {
+    color: rgb(63, 65, 65);
+}
+
+a {
+    text-decoration: none;
+}
